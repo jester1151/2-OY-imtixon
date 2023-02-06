@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.pages1 {
+  background-image: url(../images/about-full.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pages1 h1 {
+  text-align: start;
+  color: white;
+  margin-top: 77px;
+  margin-left: -850px;
+  margin-bottom: 60px;
+}
+
+.pages2 {
+  padding: 100px 100px 150px 170px;
+}
+.pages2 .pages2-0 {
+  display: flex;
+  justify-content: center;
+  gap: 260px;
+  align-items: center;
+}
+.pages2 .pages2-0 .image2 {
+  width: 572px;
+  height: 372px;
+}
+.pages2 .pages2-0 .pages2-1 h1 {
+  width: 445px;
+  height: 96px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.pages2 .pages2-0 .pages2-1 p {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  width: 445px;
+  height: 100px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.pages3 {
+  padding: 0px 100px 150px 0px;
+}
+.pages3 .pages3-0 {
+  display: flex;
+  justify-content: center;
+  gap: 220px;
+  align-items: center;
+}
+.pages3 .pages3-0 .image2 {
+  width: 572px;
+  height: 372px;
+}
+.pages3 .pages3-0 .pages3-1 {
+  padding: 0px 0px 0px 50px;
+}
+.pages3 .pages3-0 .pages3-1 h1 {
+  width: 445px;
+  height: 96px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.pages3 .pages3-0 .pages3-1 p {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  width: 445px;
+  height: 100px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.pages4 {
+  padding: 0px 100px 150px 150px;
+}
+.pages4 h1 {
+  text-align: center;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.pages4 .pages4-0 {
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+}
+.pages4 .pages4-0 .pages4-1 img {
+  width: 300px;
+}
+.pages4 .pages4-0 .pages4-1 h4 {
+  margin-top: 32px;
+  margin-bottom: 27px;
+  width: 350px;
+  height: 28px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.pages4 .pages4-0 .pages4-1 p {
+  width: 300px;
+  height: 75px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #939caa;
+}
+
+.pages5 {
+  padding: 0px 80px 100px 80px;
+}
+.pages5 h1 {
+  margin-bottom: 64px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.pages5 .pages5-0 {
+  display: flex;
+  justify-content: center;
+  gap: 260px;
+}
+.pages5 .pages5-0 h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: #495567;
+}
+
+.pages6 {
+  padding: 0px 80px 150px 80px;
+}
+.pages6 h1 {
+  margin-bottom: 64px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.pages6 .pages6-0 {
+  display: flex;
+  justify-content: center;
+  gap: 260px;
+}
+.pages6 .pages6-0 h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: #495567;
+}
+
+.pages7 {
+  padding: 0px 100px 0px 100px;
+  background-color: #495567;
+}
+.pages7 .pages7-0 {
+  padding: 102px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 450px;
+  align-items: center;
+}
+.pages7 .pages7-0 h1 {
+  width: 300px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #ffffff;
+}
+.pages7 .pages7-0 .pages7-1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

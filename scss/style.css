@@ -1,0 +1,719 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.pages1 {
+  background-image: url(../images/main-card.jpg);
+  height: 600px;
+  background-size: cover;
+}
+.pages1 h1 {
+  padding: 103px 0px 0px 162px;
+  width: 700px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #ffffff;
+}
+.pages1 .pages1-1 {
+  display: flex;
+  gap: 57px;
+  align-items: center;
+  justify-content: center;
+}
+.pages1 .pages1-1 p {
+  width: 405px;
+  height: 100px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.pages1 .pages1-1 .line-1 {
+  margin-top: 130px;
+}
+.pages1 button {
+  margin-left: 260px;
+}
+
+.pages2 {
+  padding: 150px 100px 150px 100px;
+}
+.pages2 .cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.pages2 .cards .card {
+  width: 400px;
+  border: none;
+}
+.pages2 .cards .card img {
+  width: 96px;
+  height: 96px;
+  margin: auto;
+}
+.pages2 .cards .card h3 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.pages2 .cards .card p {
+  width: 350px;
+  height: 100px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.pages3 {
+  padding: 0px 100px 150px 100px;
+}
+.pages3 .pages3-0 {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+}
+.pages3 .pages3-0 .image2 {
+  position: relative;
+}
+.pages3 .pages3-0 .image1 {
+  position: absolute;
+  right: 0px;
+  bottom: -1050px;
+  width: 700px;
+}
+.pages3 .pages3-0 .pages3-1 h1 {
+  width: 445px;
+  height: 96px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.pages3 .pages3-0 .pages3-1 p {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  width: 445px;
+  height: 100px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.pages4 {
+  padding: 0px 100px 150px 100px;
+}
+.pages4 .pages4-0 {
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+  align-items: center;
+}
+.pages4 .pages4-0 .pages4-1 h1 {
+  width: 445px;
+  height: 96px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.pages4 .pages4-0 .pages4-1 p {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  width: 445px;
+  height: 100px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.pages5 {
+  padding: 0px 100px 150px 100px;
+}
+.pages5 .pages5-0 {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+}
+.pages5 .pages5-0 .image2 {
+  border-radius: 50%;
+  position: relative;
+}
+.pages5 .pages5-0 .image1 {
+  position: absolute;
+  right: 0px;
+  bottom: -1050px;
+  width: 700px;
+}
+.pages5 .pages5-0 .pages5-1 h1 {
+  width: 445px;
+  height: 96px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.pages5 .pages5-0 .pages5-1 p {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  width: 445px;
+  height: 100px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.pages6 {
+  padding: 0px 100px 0px 100px;
+  background-color: #495567;
+}
+.pages6 .pages6-0 {
+  padding: 102px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  align-items: center;
+}
+.pages6 .pages6-0 h1 {
+  width: 515px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #ffffff;
+}
+.pages6 .pages6-0 .pages6-1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+@media (max-width: 760px) {
+  .pages1 {
+    height: 450px;
+    align-items: center;
+  }
+  .pages1 h1 {
+    padding: 70px 0px 0px 200px;
+    width: 500px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #ffffff;
+  }
+  .pages1 .pages1-1 {
+    display: block;
+  }
+  .pages1 .pages1-1 p {
+    margin-left: 150px;
+    width: 405px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .pages1 .pages1-1 .line-0 {
+    width: 70px;
+    margin-top: 100px;
+    display: none;
+  }
+  .pages1 .pages1-1 .line-1 {
+    width: 140px;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .pages1 button {
+    margin-left: 300px;
+    margin-top: -180px;
+  }
+  .pages2 .cards {
+    display: block;
+    padding-left: 100px;
+  }
+  .pages2 .cards .card {
+    display: flex;
+    width: 300px;
+    border: none;
+  }
+  .pages2 .cards .card img {
+    width: 66px;
+    height: 66px;
+    margin: auto;
+  }
+  .pages2 .cards .card h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+  .pages2 .cards .card p {
+    width: 280px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  .pages3 {
+    padding: 0px 100px 50px 100px;
+  }
+  .pages3 .pages3-0 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    align-items: center;
+  }
+  .pages3 .pages3-0 .image2 {
+    position: relative;
+    order: 1;
+    width: 200px;
+  }
+  .pages3 .pages3-0 .box {
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+    width: 200px;
+    display: none;
+  }
+  .pages3 .pages3-0 .pages3-1 {
+    margin-top: -100px;
+    order: 2;
+  }
+  .pages3 .pages3-0 .pages3-1 h1 {
+    width: 245px;
+    height: 96px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .pages3 .pages3-0 .pages3-1 p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 445px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  .pages4 {
+    padding: 0px 100px 0px 100px;
+  }
+  .pages4 .pages4-0 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .pages4 .pages4-0 .image2 {
+    width: 200px;
+  }
+  .pages4 .pages4-0 .one {
+    width: 200px;
+    display: none;
+  }
+  .pages4 .pages4-0 .pages4-1 {
+    margin-top: -700px;
+  }
+  .pages4 .pages4-0 .pages4-1 h1 {
+    width: 245px;
+    height: 96px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .pages4 .pages4-0 .pages4-1 p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 445px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  .pages5 {
+    padding: 0px 100px 150px 100px;
+  }
+  .pages5 .pages5-0 {
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .pages5 .pages5-0 .image2 {
+    border-radius: 50%;
+    position: relative;
+    width: 200px;
+  }
+  .pages5 .pages5-0 .two {
+    display: none;
+  }
+  .pages5 .pages5-0 .pages5-1 {
+    order: 2;
+    margin-top: -100px;
+  }
+  .pages5 .pages5-0 .pages5-1 h1 {
+    width: 245px;
+    height: 96px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .pages5 .pages5-0 .pages5-1 p {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    width: 445px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  .pages6 {
+    padding: 0px 100px 0px 100px;
+    background-color: #495567;
+  }
+  .pages6 .pages6-0 {
+    padding: 102px 0px;
+    display: block;
+    align-items: center;
+  }
+  .pages6 .pages6-0 h1 {
+    width: 280px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .pages6 .pages6-0 .pages6-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+}
+@media (max-width: 560px) {
+  .pages1 {
+    height: 550px;
+    align-items: center;
+  }
+  .pages1 h1 {
+    padding: 70px 0px 0px 100px;
+    width: 300px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #ffffff;
+  }
+  .pages1 .pages1-1 {
+    display: block;
+  }
+  .pages1 .pages1-1 p {
+    margin-left: 90px;
+    width: 225px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .pages1 .pages1-1 .line-0 {
+    width: 70px;
+    margin-top: 100px;
+    display: none;
+  }
+  .pages1 .pages1-1 .line-1 {
+    width: 140px;
+    margin-left: -100px;
+    margin-top: 100px;
+  }
+  .pages1 button {
+    margin-left: 150px;
+    margin-top: -180px;
+  }
+  .pages2 .cards {
+    display: block;
+    padding-left: 0px;
+  }
+  .pages2 .cards .card {
+    display: flex;
+    width: 300px;
+    border: none;
+  }
+  .pages2 .cards .card img {
+    width: 66px;
+    height: 66px;
+    margin: auto;
+  }
+  .pages2 .cards .card h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+  .pages2 .cards .card p {
+    width: 280px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  .pages3 {
+    padding: -50px 100px 50px 100px;
+  }
+  .pages3 .pages3-0 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    align-items: center;
+  }
+  .pages3 .pages3-0 .image2 {
+    position: relative;
+    order: 1;
+    width: 150px;
+  }
+  .pages3 .pages3-0 .box {
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+    width: 200px;
+    display: none;
+  }
+  .pages3 .pages3-0 .pages3-1 {
+    margin-top: -150px;
+    order: 2;
+  }
+  .pages3 .pages3-0 .pages3-1 h1 {
+    width: 225px;
+    height: 96px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: -30px;
+  }
+  .pages3 .pages3-0 .pages3-1 p {
+    margin-top: -10px;
+    margin-bottom: 35px;
+    width: 205px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  .pages4 {
+    padding: 0px 100px 0px 100px;
+  }
+  .pages4 .pages4-0 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .pages4 .pages4-0 .image2 {
+    width: 200px;
+  }
+  .pages4 .pages4-0 .one {
+    width: 200px;
+    display: none;
+  }
+  .pages4 .pages4-0 .pages4-1 {
+    margin-top: -800px;
+  }
+  .pages4 .pages4-0 .pages4-1 h1 {
+    width: 245px;
+    height: 96px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: -50px;
+  }
+  .pages4 .pages4-0 .pages4-1 p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 245px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  .pages5 {
+    padding: 0px 100px 150px 100px;
+  }
+  .pages5 .pages5-0 {
+    margin-top: -200px;
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .pages5 .pages5-0 .image2 {
+    border-radius: 50%;
+    position: relative;
+    width: 200px;
+  }
+  .pages5 .pages5-0 .two {
+    display: none;
+  }
+  .pages5 .pages5-0 .pages5-1 {
+    order: 2;
+    margin-top: -150px;
+  }
+  .pages5 .pages5-0 .pages5-1 h1 {
+    width: 205px;
+    height: 96px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: -50px;
+  }
+  .pages5 .pages5-0 .pages5-1 p {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    width: 245px;
+    height: 100px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  .pages6 {
+    padding: 0px 100px 0px 100px;
+    background-color: #495567;
+  }
+  .pages6 .pages6-0 {
+    padding: 102px 0px;
+    display: block;
+    align-items: center;
+  }
+  .pages6 .pages6-0 h1 {
+    width: 280px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .pages6 .pages6-0 .pages6-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+}/*# sourceMappingURL=style.css.map */
